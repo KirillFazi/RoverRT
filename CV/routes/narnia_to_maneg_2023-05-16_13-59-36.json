@@ -1,0 +1,109 @@
+{
+    "query": {
+        "points": [
+            {
+                "type": "walking",
+                "x": 39.710609,
+                "y": 47.237963
+            },
+            {
+                "type": "walking",
+                "x": 39.709349,
+                "y": 47.240702
+            }
+        ],
+        "type": "pedestrian"
+    },
+    "result": [
+        {
+            "algorithm": "along the main streets",
+            "begin_pedestrian_path": {
+                "geometry": {
+                    "selection": "LINESTRING(39.710608 47.237963, 39.710619 47.237936)"
+                }
+            },
+            "end_pedestrian_path": {
+                "geometry": {
+                    "selection": "LINESTRING(39.709357 47.240701, 39.709348 47.240702)"
+                }
+            },
+            "id": "4052599870159881634",
+            "maneuvers": [
+                {
+                    "comment": "start",
+                    "icon": "start",
+                    "id": "15358489263050379321",
+                    "outcoming_path": {
+                        "distance": 372,
+                        "duration": 248,
+                        "geometry": [
+                            {
+                                "length": 188,
+                                "selection": "LINESTRING(39.710619 47.237936, 39.710765 47.237939, 39.710759 47.238107, 39.710753 47.238227, 39.710743 47.238481, 39.710722 47.238991)",
+                                "style": "living_zone",
+                                "zlevel": "zlevel-normal"
+                            },
+                            {
+                                "length": 6,
+                                "selection": "LINESTRING(39.710722 47.238991, 39.710721 47.239030)",
+                                "style": "normal",
+                                "zlevel": "zlevel-normal"
+                            },
+                            {
+                                "length": 363,
+                                "selection": "LINESTRING(39.710721 47.239030, 39.710717 47.239119, 39.710714 47.239208, 39.710710 47.239287, 39.710705 47.239421, 39.710674 47.240122, 39.709355 47.240736, 39.709357 47.240701)",
+                                "style": "park_path",
+                                "zlevel": "zlevel-normal"
+                            }
+                        ],
+                        "names": []
+                    },
+                    "outcoming_path_comment": "350 m straight",
+                    "type": "begin"
+                },
+                {
+                    "comment": "finish",
+                    "icon": "finish",
+                    "id": "9873558062961167244",
+                    "outcoming_path_comment": "You have arrived!",
+                    "type": "end"
+                }
+            ],
+            "reliability": 0.0,
+            "route_id": "all-russia-pd-mosesd.m1/pedestrianrouting/1684234776.497642",
+            "total_distance": 378,
+            "total_duration": 252,
+            "type": "pedestrianrouting",
+            "ui_total_distance": {
+                "unit": "m",
+                "value": "400"
+            },
+            "ui_total_duration": "4 min",
+            "waypoints": [
+                {
+                    "original_point": {
+                        "lat": 47.23793660796564,
+                        "lon": 39.71061921410721
+                    },
+                    "projected_point": {
+                        "lat": 47.23793660796564,
+                        "lon": 39.71061921410721
+                    },
+                    "transit": false
+                },
+                {
+                    "original_point": {
+                        "lat": 47.24070116289747,
+                        "lon": 39.70935770995372
+                    },
+                    "projected_point": {
+                        "lat": 47.24070116289747,
+                        "lon": 39.70935770995372
+                    },
+                    "transit": false
+                }
+            ]
+        }
+    ],
+    "type": "result"
+}

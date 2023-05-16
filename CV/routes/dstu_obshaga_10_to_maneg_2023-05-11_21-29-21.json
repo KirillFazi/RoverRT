@@ -1,0 +1,198 @@
+{
+    "query": {
+        "points": [
+            {
+                "type": "walking",
+                "x": 39.709843,
+                "y": 47.237945
+            },
+            {
+                "type": "walking",
+                "x": 39.709348,
+                "y": 47.240705
+            }
+        ],
+        "type": "bicycle"
+    },
+    "result": [
+        {
+            "algorithm": "safe",
+            "begin_pedestrian_path": {
+                "geometry": {
+                    "selection": "LINESTRING(39.709842 47.237945, 39.709846 47.237921)"
+                }
+            },
+            "end_pedestrian_path": {
+                "geometry": {
+                    "selection": "LINESTRING(39.709357 47.240701, 39.709348 47.240705)"
+                }
+            },
+            "id": "3201486981112180995",
+            "maneuvers": [
+                {
+                    "comment": "start",
+                    "icon": "start",
+                    "id": "13038947247156579115",
+                    "outcoming_path": {
+                        "distance": 504,
+                        "duration": 151,
+                        "geometry": [
+                            {
+                                "length": 227,
+                                "selection": "LINESTRING(39.709846 47.237921, 39.710197 47.237928, 39.710765 47.237939, 39.710759 47.238107, 39.710843 47.238211, 39.710920 47.238270, 39.711409 47.238490)",
+                                "style": "living_zone",
+                                "zlevel": "zlevel-normal"
+                            },
+                            {
+                                "length": 162,
+                                "selection": "LINESTRING(39.711409 47.238490, 39.711287 47.238489, 39.711269 47.239004, 39.711263 47.239020, 39.711252 47.239030, 39.711225 47.239037, 39.710721 47.239029)",
+                                "style": "normal",
+                                "zlevel": "zlevel-normal"
+                            },
+                            {
+                                "length": 363,
+                                "selection": "LINESTRING(39.710721 47.239029, 39.710717 47.239119, 39.710714 47.239208, 39.710710 47.239287, 39.710705 47.239421, 39.710674 47.240122, 39.709355 47.240736, 39.709357 47.240701)",
+                                "style": "park_path",
+                                "zlevel": "zlevel-normal"
+                            }
+                        ],
+                        "names": []
+                    },
+                    "outcoming_path_comment": "500 m straight",
+                    "type": "begin"
+                },
+                {
+                    "comment": "finish",
+                    "icon": "finish",
+                    "id": "12663181491994350551",
+                    "outcoming_path_comment": "You have arrived!",
+                    "type": "end"
+                }
+            ],
+            "reliability": 1.0,
+            "route_id": "all-russia-bc-mosesd.m1/bicyclerouting/1683829761.411535",
+            "total_distance": 510,
+            "total_duration": 154,
+            "type": "bicyclerouting",
+            "ui_total_distance": {
+                "unit": "m",
+                "value": "500"
+            },
+            "ui_total_duration": "2 min",
+            "waypoints": [
+                {
+                    "original_point": {
+                        "lat": 47.23792178700578,
+                        "lon": 39.70984621380522
+                    },
+                    "projected_point": {
+                        "lat": 47.23792178700578,
+                        "lon": 39.70984621380522
+                    },
+                    "transit": false
+                },
+                {
+                    "original_point": {
+                        "lat": 47.24070146783955,
+                        "lon": 39.70935762012219
+                    },
+                    "projected_point": {
+                        "lat": 47.24070146783955,
+                        "lon": 39.70935762012219
+                    },
+                    "transit": false
+                }
+            ]
+        },
+        {
+            "algorithm": "shortest",
+            "begin_pedestrian_path": {
+                "geometry": {
+                    "selection": "LINESTRING(39.709842 47.237945, 39.709846 47.237921)"
+                }
+            },
+            "end_pedestrian_path": {
+                "geometry": {
+                    "selection": "LINESTRING(39.709357 47.240701, 39.709348 47.240705)"
+                }
+            },
+            "id": "3836275942321305222",
+            "maneuvers": [
+                {
+                    "comment": "start",
+                    "icon": "start",
+                    "id": "17137886663914642855",
+                    "outcoming_path": {
+                        "distance": 542,
+                        "duration": 153,
+                        "geometry": [
+                            {
+                                "length": 227,
+                                "selection": "LINESTRING(39.709846 47.237921, 39.710197 47.237928, 39.710765 47.237939, 39.710759 47.238107, 39.710843 47.238211, 39.710920 47.238270, 39.711409 47.238490)",
+                                "style": "living_zone",
+                                "zlevel": "zlevel-normal"
+                            },
+                            {
+                                "length": 162,
+                                "selection": "LINESTRING(39.711409 47.238490, 39.711287 47.238489, 39.711269 47.239004, 39.711263 47.239020, 39.711252 47.239030, 39.711225 47.239037, 39.710721 47.239029)",
+                                "style": "normal",
+                                "zlevel": "zlevel-normal"
+                            },
+                            {
+                                "length": 420,
+                                "selection": "LINESTRING(39.710721 47.239029, 39.710717 47.239119, 39.710714 47.239208, 39.710710 47.239287, 39.710705 47.239421, 39.710674 47.240122, 39.710144 47.240112, 39.709401 47.240096, 39.709357 47.240701)",
+                                "style": "park_path",
+                                "zlevel": "zlevel-normal"
+                            }
+                        ],
+                        "names": []
+                    },
+                    "outcoming_path_comment": "500 m straight",
+                    "type": "begin"
+                },
+                {
+                    "comment": "finish",
+                    "icon": "finish",
+                    "id": "12226737609912036469",
+                    "outcoming_path_comment": "You have arrived!",
+                    "type": "end"
+                }
+            ],
+            "reliability": 1.0,
+            "route_id": "all-russia-bc-mosesd.m1/bicyclerouting/1683829761.411834",
+            "total_distance": 551,
+            "total_duration": 158,
+            "type": "bicyclerouting",
+            "ui_total_distance": {
+                "unit": "m",
+                "value": "600"
+            },
+            "ui_total_duration": "2 min",
+            "waypoints": [
+                {
+                    "original_point": {
+                        "lat": 47.23792178700578,
+                        "lon": 39.70984621380522
+                    },
+                    "projected_point": {
+                        "lat": 47.23792178700578,
+                        "lon": 39.70984621380522
+                    },
+                    "transit": false
+                },
+                {
+                    "original_point": {
+                        "lat": 47.24070134586272,
+                        "lon": 39.70935770995372
+                    },
+                    "projected_point": {
+                        "lat": 47.24070134586272,
+                        "lon": 39.70935770995372
+                    },
+                    "transit": false
+                }
+            ]
+        }
+    ],
+    "type": "result"
+}
