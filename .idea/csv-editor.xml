@@ -10,6 +10,27 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="$PROJECT_DIR$/../DataSpellProjects/Practicum/complex_project1/games.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DataSpellProjects/Practicum/exerciser_nlp/tweets_lemm_test.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../DataSpellProjects/Practicum/ml_nlp/toxic_comments.csv">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
       </map>
     </option>
   </component>
